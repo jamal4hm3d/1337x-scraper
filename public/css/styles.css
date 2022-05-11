@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.data-flex-box{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 50%;
+}
+
+.flex-item{
+    display: flex;
+    background-color: beige;
+    font-size: 0.75rem;
+    padding: 10px;
+}
+
+.flex-item > button{
+    height: 10px;
+}
+
+.data{
+
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 350px;
+}
